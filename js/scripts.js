@@ -61,10 +61,10 @@ $(document).ready(function() {
             if (companyType === 'enterprise' || companyType === 'startup') {
             // alot, software, moderate or heavy, and enterprise
               if (application === 'windows') {
-              $('#csharp').show();
-            } else {
-              $('#php').show();
-            }
+                $('#csharp').show();
+              } else {
+                $('#php').show();
+              }
             }
           }
         }
@@ -78,20 +78,20 @@ $(document).ready(function() {
             if (companyType === 'enterprise' || companyType === 'startup') {
             //no experience/web-dev or software engineering/heavy interaction/ enterprise or startup
               if (application === 'windows' || application ==='android') {
-              $('#csharp').show();
-            } else {
-              $('#ruby').show();
-            }
+                $('#csharp').show();
+              } else {
+                $('#ruby').show();
+              }
             }
           } else {
              //no experience and web-dev or software engineering, moderate interaction
               if (companyType === 'enterprise' || companyType === 'startup') {
               // no experience, web-dev/software, moderate, enterprise/startup
                 if (application === 'windows' || application ==='android') {
-                $('#php').show();
-              } else {
-                $('#ruby').show();
-              }
+                  $('#php').show();
+                } else {
+                  $('#ruby').show();
+                }
               }
             }
           }
