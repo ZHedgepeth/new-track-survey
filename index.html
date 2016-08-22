@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Track Survey</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Track Suggester Survey</h1>
+      <h2>Find out which track is for you</h2>
+      <form id="info">
+        <label><h3>What is your current coding experience level?</h3></label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="experience" value="a-lot">
+            A lot!
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="experience" value="none">
+            Very little to none.
+          </label>
+        </div>
+
+        <label><h3>Are interested in Web Development or Software Engineering?</h3></label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="industry" value="web-dev">
+            Web Development
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="industry" value="software">
+            Software Engineering
+          </label>
+        </div>
+
+        <label><h3>How much interaction from your user do you desire?</h3></label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="interaction" value="heavy">
+            Heavy
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="interaction" value="moderate">
+            Moderate
+          </label>
+        </div>
+
+        <label><h3>Which of these types of companies is most appealing?</h3></label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="companyType" value="enterprise">
+            Enterprise Company
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="companyType" value="startup">
+            Startup
+          </label>
+        </div>
+
+        <label><h3>Various Web applications, Windows applications, or Android/IOS applications?</h3></label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="application" value="windows">
+            Windows Applications
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="application" value="web">
+            Web applications
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="application" value="android">
+            Android/IOS
+          </label>
+        </div>
+
+
+    <button type="submit" class="btn">SUBMIT!</button>
+    </form>
+    <div id="output"><h3>I recommend</h3></div>
+      <div id="java">
+        <h3>JAVA!</h3>
+        <img class="img" src="img/java.jpg">
+      </div>
+      <div id="ruby">
+        <h3>RUBY!</h3>
+        <img class="img" src="img/ruby.jpg">
+      </div>
+      <div id="php">
+        <h3>PHP!</h3>
+        <img class="img" src="img/php.jpg">
+      </div>
+      <div id="csharp">
+        <h3>C#!</h3>
+        <img class="img" src="img/csharp.jpg">
+      </div>
+    </div>
+  </body>
+</html>
