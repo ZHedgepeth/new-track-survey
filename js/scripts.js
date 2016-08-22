@@ -1,6 +1,11 @@
 $(document).ready(function() {
   $("form#info").submit(function(event) {
     event.preventDefault();
+    $('#java').hide();
+    $('#php').hide();
+    $('#ruby').hide();
+    $('#csharp').hide();
+
 
     var experience = $("input:radio[name=experience]:checked").val();
     var industry = $("input:radio[name=industry]:checked").val();
